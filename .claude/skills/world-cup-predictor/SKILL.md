@@ -6,6 +6,8 @@ disable-model-invocation: true
 
 # World Cup Match Predictor
 
+This skill predicts the outcome of a World Cup 2026 match between any two national teams. It combines a statistical Poisson goal model (fitted on historical international results) with real-time qualitative context — injuries, suspensions, form, and breaking news — to produce adjusted win/draw/loss probabilities. It then compares those probabilities against live bookmaker odds to identify positive expected value (+EV) bets, and calculates the optimal Kelly Criterion stake size.
+
 When invoked, follow this exact sequence to generate a prediction for the requested match:
 
 1. **Fetch Live Data:** Use the alldontlie-api MCP server to fetch the latest match stats, rosters, and pre-match form for the requested teams.
