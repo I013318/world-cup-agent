@@ -1,4 +1,4 @@
-﻿---
+---
 name: world-cup-predictor
 description: >-
   Predicts the outcome of a World Cup 2026 match between any two national teams. Combines a Poisson goal model (fitted on historical international results) with real-time qualitative context — injuries, suspensions, form, and breaking news — to produce adjusted win/draw/loss probabilities. Compares those probabilities against live bookmaker odds to identify positive expected value (+EV) bets and calculates the optimal Kelly Criterion stake size.
