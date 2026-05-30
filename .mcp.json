@@ -1,11 +1,3 @@
-﻿{
-  "mcpServers": {
-    "balldontlie-api": {
-      "url": "https://mcp.balldontlie.io/mcp",
-      "transport": "http",
-      "headers": {
-        "Authorization": "YOUR_BALLDONTLIE_API_KEY"
-      }
-    }
-  }
+{
+  "mcpServers": {}
 }
